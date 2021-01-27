@@ -13,11 +13,9 @@ export const GiphyApp = () => {
       <h2>GiphyApp</h2>
       <hr />
       <AddCategory setcategory={setcategory} />
-      {/* <ol> */}
       {category.map((categoryItem) => {
         return <GiphyGrid key={categoryItem} category={categoryItem} />;
       })}
-      {/* </ol> */}
     </>
   );
 };

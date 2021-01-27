@@ -19,11 +19,9 @@ export const GiphyGrid = ({ category }) => {
         <p className='animate__animated animate__flash'>Loading Data...</p>
       )}
       <div className='cardGrid'>
-        {/* <ol> */}
         {Images.map((image) => {
           return <GiphyGridItem key={image.id} {...image} />;
         })}
-        {/* </ol> */}
       </div>
     </>
   );

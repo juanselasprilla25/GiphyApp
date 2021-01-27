@@ -34,22 +34,12 @@ p {
 .cardGrid {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: flex-start; */
-  /* flex-direction: row; */
   max-height: 100%;
-  /* margin: 10px; */
 
   align-items: stretch;
 }
 
 .card {
-  /* align-content: center;
-  border: 1px solid grey;
-  border-radius: 6px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  overflow: hidden; */
-
   flex: 0 0 250px;
   margin: 10px;
   border: 1px solid #ccc;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <GiphyGridItem/> in GiphyGridItem.js file  Rendering correctly with 'title' and 'url' props passed in 1`] = `
+<div
+  className="card animate__animated animate__bounceInLeft"
+>
+  <img
+    alt={1}
+    src="https://media2.giphy.com/media/SsZViiaRCjgp8fVexU/giphy.gif?cid=79d2ed22nvb0imbtongho7ze8m3bb0xr4vxg596hw32capfq&rid=giphy.gif"
+  />
+  <p>
+    1
+  </p>
+</div>
+`;
+
+exports[`Testing <GiphyGridItem/> in GiphyGridItem.js file  Rendering correctly without props passed in 1`] = `
+<div
+  className="card animate__animated animate__bounceInLeft"
+>
+  <img />
+  <p />
+</div>
+`;
